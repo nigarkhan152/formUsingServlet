@@ -1,0 +1,21 @@
+<web-app>
+    <welcome-file-list>
+        <welcome-file>home.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>register.NewClass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>servers</servlet-name>
+        <servlet-class>register.SuccessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servers</servlet-name>
+        <url-pattern>/servers</url-pattern>
+    </servlet-mapping>
+</web-app>
